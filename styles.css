@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 5% 10% 85%;
+    padding: 0%;
+    height: 100vh;
+}
+
+.Dashboard{
+    background-color: #1992d4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.nav{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.headbar{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.main-content{
+    background-color: #e2e8f0;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
