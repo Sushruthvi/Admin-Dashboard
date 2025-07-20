@@ -16,7 +16,7 @@ html, body {
 .container{
     display: grid;
     grid-template-columns: 17% 82%;
-    grid-template-rows: 5% 10% 85%;
+    grid-template-rows: 6% 9% 85%;
     padding: 0%;
     height: 100vh;
 }
@@ -47,7 +47,14 @@ html, body {
     gap:0.25%;
    
 }
+.grid-1 div,
+.grid-2 div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 .nav{
+    margin-top: 1%;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
@@ -67,4 +74,17 @@ html, body {
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
+}
+.nav{
+    display: flex;  
+}
+.nav i {
+    font-size: 1.5em; /* Adjust this value to match the input height */
+    display: flex;
+    align-items: center;
+    height: 35px; /* Match the input height if needed */
+}
+
+.nav input {
+    height: 40px; /* Ensure input height is set */
 }
