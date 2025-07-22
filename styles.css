@@ -16,7 +16,7 @@ html, body {
 .container{
     display: grid;
     grid-template-columns: 17% 82%;
-    grid-template-rows: 6% 9% 85%;
+    grid-template-rows: 6% 16% 78%;
     padding: 0%;
     height: 100vh;
 }
@@ -66,6 +66,17 @@ html, body {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
+    display: flex;
+    padding-top:3%;
+    justify-content: space-around;
+}
+.textg1{
+    font-size: small;
+    font-weight: bold;
+}
+.textg2{
+    font-weight: bold;
+    margin-right: 45%;
 }
 
 .main-content{
@@ -74,17 +85,24 @@ html, body {
     grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 3;
+    padding-left: 2%;
+    padding-top: 2.3%;
+    padding-right: 2%;
+}
+.textmc{
+    display: flex;
+    justify-content: space-between;
 }
 .nav{
     display: flex;  
 }
 .nav i {
-    font-size: 1.5em; /* Adjust this value to match the input height */
+    font-size: 1.5em; 
     display: flex;
     align-items: center;
-    height: 35px; /* Match the input height if needed */
+    height: 35px; 
 }
 
 .nav input {
-    height: 40px; /* Ensure input height is set */
+    height: 40px; 
 }
